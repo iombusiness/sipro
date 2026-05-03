@@ -17,25 +17,27 @@ const AboutSection = () => {
           <div className="mt-4 h-1 w-16 rounded-full bg-primary mx-auto" />
         </div>
 
-        <div className="space-y-6 text-muted-foreground leading-relaxed">
+        <div className="space-y-6 text-base leading-relaxed text-foreground md:text-lg">
           <p>
-            A powerful Strategic Inventory Risk Management module built to enhance Odoo Inventory,{" "}
+            A powerful Strategic Inventory Planning &amp; Risk Management module built to enhance Odoo&rsquo;s Inventory,{" "}
             <span className="font-bold text-[#6d6196]">SiPRO</span> helps Trading businesses minimise the risks associated with{" "}
-            <span className="italic">inventory investment by aligning stock holdings with sales, marketing, financial, and operational objectives.</span>
+            <span className="italic">
+              inventory investment by aligning stock holdings with sales, marketing, financial, and operational objectives.
+            </span>
           </p>
           <p>
             Leveraging advanced analytics, a proven methodology, and automated risk assessments,{" "}
             <span className="font-bold text-[#6d6196]">SiPRO</span> enables organisations to make data-driven decisions that optimise stock levels and strengthen overall supply chain performance.
           </p>
-          <ul className="list-disc space-y-3 pl-6">
+          <ul className="list-disc space-y-5 pl-8 marker:text-foreground md:pl-12">
             <li><span className="font-bold text-[#6d6196]">SiPRO</span> is a Strategic Inventory module that extends and enhances Odoo&rsquo;s Inventory functionality.</li>
             <li>Designed for Trading businesses, including importers, wholesalers, distributors, and retailers of finished goods, components, parts, and accessories.</li>
             <li>Aligns <span className="italic">inventory investment</span> with demand patterns and broader business objectives.</li>
-            <li>Enables businesses to achieve targeted DIFOT service levels by ensuring optimal product availability, while identifying and isolating excess, slow-moving, and obsolete stock&mdash;typically reducing such inventory by double-digit percentages of total inventory value.</li>
             <li>Eliminates manual decision-making by automating product stocking strategies based on market demand and predefined parameters.</li>
-            <li>Fully data-driven, enabling automated calculation of optimal stock levels across the entire product portfolio, including Safety Stock, Minimum and Maximum levels, and Reorder Quantities&mdash;based on SiPRO defaults or user-defined DIFOT targets.</li>
-            <li>Supports end-to-end Product Lifecycle Management, including new product launches, end-of-life processes, and strategic product withdrawals.</li>
+            <li>Fully data-driven, enabling automated calculation of optimal stock levels across the entire product portfolio, including Safety Stock, Minimum and Maximum levels, and Reorder Quantities&mdash;based on iRM defaults or user-defined DIFOT targets.</li>
             <li>Enables automated management of strategic stock holdings for key customers, seasonal demand, critical production materials, and repair and service parts.</li>
+            <li>Supports end-to-end Product Lifecycle Management, including new product launches, end-of-life processes, and strategic product withdrawals.</li>
+            <li>Enables businesses to achieve targeted DIFOT service levels by ensuring optimal product availability, while identifying and isolating excess, slow-moving, and obsolete stock&mdash;typically reducing such inventory by double-digit percentages of total inventory value.</li>
             <li>Provides a detailed, downloadable Inventory Risk Assessment report with up to 12 months of sales data, delivering clear visibility of total, active, and non-moving inventory&mdash;supporting informed financial decisions and <span className="font-bold italic">improving cash flow, profitability, and operational efficiency.</span></li>
           </ul>
         </div>
