@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="SiPRO favicon">
-  <rect width="32" height="32" fill="#6f639a"/>
-  <text x="16" y="21.5"
+  <rect width="32" height="32" fill="#6d6196"/>
+  <text x="16" y="16"
         text-anchor="middle"
-        font-family="Roboto, Arial, Helvetica, sans-serif"
+        dominant-baseline="middle"
+        font-family="Robot, Roboto, Arial, Helvetica, sans-serif"
         font-size="18"
         font-weight="700"
         fill="#ffffff">SiPRO</text>

@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-label="SiPRO apple touch icon">
-  <rect width="180" height="180" fill="#6f639a"/>
-  <text x="90" y="115"
+  <rect width="180" height="180" fill="#6d6196"/>
+  <text x="90" y="90"
         text-anchor="middle"
-        font-family="Roboto, Arial, Helvetica, sans-serif"
+        dominant-baseline="middle"
+        font-family="Robot, Roboto, Arial, Helvetica, sans-serif"
         font-size="100"
         font-weight="700"
         fill="#ffffff">SiPRO</text>
