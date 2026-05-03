@@ -8,12 +8,13 @@ the module has been added to your Odoo instance by your hosting provider, techni
 Install the Module
 Log in to your Odoo database as an administrator.
 Open the Apps menu.
-Search for Inventory Risk Mitigation or SiPRO.
+Search for SiPRO.
 Click Install.
 
 Once installation is complete, the module is activated automatically.
 After Installation
-After the module is installed, you will see a new main menu called Inventory Risk Mitigation.
+After the module is installed, you will see a new main menu called SiPRO.
+
 The module also adds:
 the Proposal Report
 the Strategic Stock workspace

@@ -2,8 +2,9 @@ The Proposal Report is the main working screen in SiPRO module for reviewing cur
 It is designed to help users assess stockholding decisions product by product, compare current and proposed values, and decide whether a recommendation should be accepted and applied.
 Where to find it
 To open the report:
-Go to Inventory Risk Mitigation
+Go to SiPRO
 Click Proposal Report
+
 The report opens in a list view and displays one row per product.
 Purpose of the Proposal Report
 The Proposal Report helps users:
@@ -34,12 +35,12 @@ Proposal Workflow Restriction
 When a product has a Strategic Stock Type, proposal workflow actions in the Proposal Report are disabled for that product.
 This is intentional. Strategic stock products are treated as exceptions and are not meant to be processed through the normal accept/apply proposal workflow.
 The user may however still view-only the recommendations such as reorder point (i.e. minimum stock) and order up to (i.e. maximum stock) for strategic stock based on historical data and analysis.
-Proposal Report
 
 Key actions that are applied upon accepting the proposal:
 Reorder Point (i.e. minimum stock)
 Order Up-To Point (i.e. maximum stock)
 These values update the product reordering rules.
+Proposal Report
 Column
 Vendor
 Strategic Stock Type
@@ -56,7 +57,7 @@ Current Stock Value
 New Min Stock Value (Reorder Point Value)
 New Reorder Qty Value (Goods In Transit)
 New Extended Inventory Value
-Inventory Risk Mitigation
+Inventory Classification
 Variant Count
 Unit Of Measure
 Unit Cost
@@ -157,7 +158,7 @@ New Min Stock Value
 New Reorder Qty Value
 New Extended Inventory Value
 Review the classification:
-Inventory Risk Mitigation
+Inventory Classification
 If appropriate, click Accept, then Apply.
 
 

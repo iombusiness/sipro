@@ -1,7 +1,8 @@
 After installing SiPRO module, the next step is to configure the settings that control how the module evaluates products, classifies inventory, and calculates replenishment recommendations.
 All configuration is managed from the module’s settings screen.
 How to access settings
-Open Inventory Risk Mitigation.
+
+Open SiPRO.
 Click Settings.
 
 Review each section in module settings carefully before using the Proposal Report for decision-making to make the most of it and avoid inaccuracies.
@@ -33,7 +34,7 @@ A longer period gives a broader historical view and may reduce the impact of sho
 Recommendation
 use 6 to 8 months if demand patterns change quickly
 use 9 to 12 months if demand is relatively stable and you want a broader trend view
-For most businesses, 12 months is a practical starting point.
+For most businesses, 12 months is a practical starting point. 
 3. Defined Consumption Value for Inventory Classification
 
 SiPRO Module is currency agnostic SiPRO can be used in any Odoo company currency.
@@ -60,7 +61,8 @@ For example:
 if your business carries many expensive products, you may raise the A/B boundary
 if your product range is mostly lower value, you may lower the thresholds so the categories better reflect commercial importance
 
-Important Note These values should reflect your business’s own cost structure, not a generic industry benchmark.
+Important Note Add body These values should reflect your business’s own cost structure, not a generic industry benchmark.
+
 4. Defined Consumption Quantity for Inventory Classification
 
 The module uses the product’s average monthly smoothed consumption to determine whether an item belongs in:
@@ -182,6 +184,5 @@ demand predictability
 desired customer service level
 purchasing and freight cycles
 After saving the settings, open the Proposal Report and review a sample of products from different categories to ensure the outputs align with business expectations.
-
 Refine Over Time
 It is normal to adjust the values after reviewing live product results.

@@ -10,7 +10,7 @@ maintain visibility through proposal and strategic stock audit logs
 
 You’re always in control The module prepares a proposal report for the user to review and accept recommendations with full audit log.
 Requirements and Dependencies
-Before installing Inventory Risk Mitigation (SiPRO), ensure the required Odoo applications and supporting master data are available in your environment.
+Before installing the module, ensure the required Odoo applications and supporting master data are available in your environment.
 SiPRO has been tested on Odoo 18 and 19. It may work on older versions but it is recommended to trial in a test environment prior to rolling out in production.
 The module depends on the following standard Odoo modules:
 Module
