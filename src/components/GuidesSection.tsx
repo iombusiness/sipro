@@ -142,7 +142,7 @@ const GuidesSection = () => {
           <h2 className="text-3xl font-bold text-foreground mb-2">How to Guides</h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
           <p className="text-muted-foreground mt-4">
-            Browse our how to guides to make the best use of the iRM module
+            Browse our how to guides to make the best use of the SiPRO module
           </p>
         </div>
 

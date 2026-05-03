@@ -10,7 +10,7 @@ const HeroSection = () => {
     <section className="relative min-h-[70vh] flex items-center justify-center text-center px-6" style={{ background: "var(--hero-gradient)" }}>
       <div className="max-w-3xl mx-auto space-y-6">
         <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground tracking-tight">
-          iRM
+          SiPRO
         </h1>
         <p className="text-lg md:text-xl text-primary-foreground/80 font-light leading-relaxed">
           Inventory Risk Mitigation

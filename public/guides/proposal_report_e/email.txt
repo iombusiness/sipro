@@ -1,4 +1,4 @@
-The Proposal Report is the main working screen in iRM module for reviewing current inventory settings against the module’s recommended replenishment values.
+The Proposal Report is the main working screen in SiPRO module for reviewing current inventory settings against the module’s recommended replenishment values.
 It is designed to help users assess stockholding decisions product by product, compare current and proposed values, and decide whether a recommendation should be accepted and applied.
 Where to find it
 To open the report:

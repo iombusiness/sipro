@@ -8,7 +8,7 @@ const VideoSection = () => {
           <h2 className="text-3xl font-bold text-foreground mb-2">Video Tutorials</h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
           <p className="text-muted-foreground mt-4">
-            Video tutorials coming soon. Check back for step-by-step guides on using iRM.
+            Video tutorials coming soon. Check back for step-by-step guides on using SiPRO.
           </p>
         </div>
 

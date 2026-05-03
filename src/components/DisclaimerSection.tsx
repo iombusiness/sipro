@@ -16,7 +16,7 @@ const DisclaimerSection = () => {
             IOM Business.
           </p>
           <p>
-            iRM provides decision-support tools for inventory planning and replenishment. Results
+            SiPRO provides decision-support tools for inventory planning and replenishment. Results
             depend on system configuration, source data quality, and business processes. Buyers are
             responsible for reviewing recommendations before applying operational changes. The
             module is provided on an &quot;as is&quot; basis, without warranties of merchantability,

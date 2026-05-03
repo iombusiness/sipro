@@ -1,5 +1,5 @@
-iRM is an advanced Odoo module built to help businesses make smarter inventory decisions by turning stock data, demand history, supplier lead times, and product cost information into practical replenishment insights.
-It is designed to help businesses reduce inventory risk and improve cashflow. By providing advanced inventory analytics, forecasting tools, and automated risk assessments, iRM empowers your organization to make data-driven decisions and optimize stock levels across your supply chain.
+SiPRO is an advanced Odoo module built to help businesses make smarter inventory decisions by turning stock data, demand history, supplier lead times, and product cost information into practical replenishment insights.
+It is designed to help businesses reduce inventory risk and improve cashflow. By providing advanced inventory analytics, forecasting tools, and automated risk assessments, SiPRO empowers your organization to make data-driven decisions and optimize stock levels across your supply chain.
 Using historical stock movement data and configurable business rules, the module helps users:
 analyze product demand and usage trends
 classify inventory by demand and value
@@ -10,8 +10,8 @@ maintain visibility through proposal and strategic stock audit logs
 
 You’re always in control The module prepares a proposal report for the user to review and accept recommendations with full audit log.
 Requirements and Dependencies
-Before installing Inventory Risk Mitigation (iRM), ensure the required Odoo applications and supporting master data are available in your environment.
-iRM has been tested on Odoo 18 and 19. It may work on older versions but it is recommended to trial in a test environment prior to rolling out in production.
+Before installing Inventory Risk Mitigation (SiPRO), ensure the required Odoo applications and supporting master data are available in your environment.
+SiPRO has been tested on Odoo 18 and 19. It may work on older versions but it is recommended to trial in a test environment prior to rolling out in production.
 The module depends on the following standard Odoo modules:
 Module
 base
@@ -23,7 +23,7 @@ contacts
 purchase
 Dependency reason
 provides the core Odoo framework, system configuration, users, companies, and general platform features required by the module.
-provides product templates, variants, categories, costing, and unit of measure data extended by iRM.
+provides product templates, variants, categories, costing, and unit of measure data extended by SiPRO.
 provides warehouses, stock moves, stock move lines, inventory quantities, and reordering rules used for analysis and replenishment calculations.
 supports the customer-demand context behind outbound stock activity and sales-related inventory movement.
 required to record the employee responsible for requesting or initiating strategic stock.
@@ -39,4 +39,4 @@ stock movement history that reflects real product demand
 reordering rules for products where current and proposed values need to be compared
 
 Recommendation
-For best results, install and use iRM in an environment where Inventory, Purchasing, Sales, Contacts, and Employees are already part of the normal business process, and where product, supplier, and stock transaction data is actively maintained.
+For best results, install and use SiPRO in an environment where Inventory, Purchasing, Sales, Contacts, and Employees are already part of the normal business process, and where product, supplier, and stock transaction data is actively maintained.

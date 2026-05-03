@@ -1,4 +1,4 @@
-Installing the iRM module is simple and follows the standard Odoo app installation process.
+Installing the SiPRO module is simple and follows the standard Odoo app installation process.
 Before You Begin
 Please ensure
 your Odoo database is running on a supported version - we have tested on Odoo versions 18 and 19
@@ -8,7 +8,7 @@ the module has been added to your Odoo instance by your hosting provider, techni
 Install the Module
 Log in to your Odoo database as an administrator.
 Open the Apps menu.
-Search for Inventory Risk Mitigation or iRM.
+Search for Inventory Risk Mitigation or SiPRO.
 Click Install.
 
 Once installation is complete, the module is activated automatically.

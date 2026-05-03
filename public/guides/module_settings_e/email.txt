@@ -1,11 +1,11 @@
-After installing iRM module, the next step is to configure the settings that control how the module evaluates products, classifies inventory, and calculates replenishment recommendations.
+After installing SiPRO module, the next step is to configure the settings that control how the module evaluates products, classifies inventory, and calculates replenishment recommendations.
 All configuration is managed from the module’s settings screen.
 How to access settings
 Open Inventory Risk Mitigation.
 Click Settings.
 
 Review each section in module settings carefully before using the Proposal Report for decision-making to make the most of it and avoid inaccuracies.
-The settings in this screen determine how iRM calculates:
+The settings in this screen determine how SiPRO calculates:
 inventory classifications
 preferred service levels
 reorder frequency
@@ -36,7 +36,7 @@ use 9 to 12 months if demand is relatively stable and you want a broader trend v
 For most businesses, 12 months is a practical starting point.
 3. Defined Consumption Value for Inventory Classification
 
-iRM Module is currency agnostic iRM can be used in any Odoo company currency.
+SiPRO Module is currency agnostic SiPRO can be used in any Odoo company currency.
 Monetary calculations and displayed values follow the currency configured for the company in Odoo.
 Please note that some field labels currently use the $ symbol as a generic label, but the module is not restricted to USD.
 The module uses the product’s standard cost to determine whether an item belongs in:

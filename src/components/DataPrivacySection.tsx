@@ -9,7 +9,7 @@ const DataPrivacySection = () => {
 
         <div className="mt-6 space-y-4 text-sm leading-7 text-muted-foreground md:text-base">
           <p>
-            iRM is designed to operate within your Odoo environment. We do not collect user data,
+            SiPRO is designed to operate within your Odoo environment. We do not collect user data,
             customer data, inventory data, or operational data on our own systems through this
             module. Based on the module code, the app does not include built-in mechanisms to
             transmit your business data to IOM Business or to external third-party services as part
