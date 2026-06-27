@@ -13,13 +13,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b">
-      <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-8 gap-y-3 px-6 py-4">
+    <nav className="fixed left-0 right-0 top-0 z-50 border-b border-[#ece9f5] bg-white/85 shadow-sm backdrop-blur-md">
+      <div className="mx-auto flex max-w-[980px] flex-wrap items-center justify-center gap-x-7 gap-y-3 px-6 py-4">
         {links.map((l) => (
           <button
             key={l.href}
             onClick={() => handleClick(l.href)}
-            className="text-sm text-muted-foreground hover:text-primary transition-colors"
+            className="text-sm font-medium text-[#6b6885] transition-colors hover:text-[#6d6196]"
           >
             {l.label}
           </button>

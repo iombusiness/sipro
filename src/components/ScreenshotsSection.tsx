@@ -31,11 +31,11 @@ const screenshots = [
 
 const ScreenshotsSection = () => {
   return (
-    <section id="screenshots" className="py-20 px-4 bg-background sm:px-6">
-      <div className="mx-auto max-w-7xl space-y-8">
+    <section id="screenshots" className="px-4 py-12 sm:px-6">
+      <div className="mx-auto max-w-7xl space-y-7">
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-2">Screenshots</h2>
-          <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
+          <h2 className="mb-2 text-3xl font-bold text-[#2d2a42]">Screenshots</h2>
+          <div className="mx-auto h-1 w-16 rounded-full bg-[#6d6196]" />
         </div>
 
         <Carousel
@@ -50,8 +50,8 @@ const ScreenshotsSection = () => {
                 key={screenshot.src}
                 className="pl-3 md:pl-6 sm:basis-[92%] lg:basis-[82%] xl:basis-[76%]"
               >
-                <div className="rounded-[2rem] border bg-muted/60 p-3 shadow-sm md:p-5">
-                  <div className="flex min-h-[280px] items-center justify-center rounded-[1.5rem] border border-border/70 bg-white p-4 md:min-h-[620px] md:p-6">
+                <div className="rounded-[22px] border border-[#ece9f5] bg-white p-4 shadow-[0_12px_32px_rgba(55,52,77,0.07)] md:p-5">
+                  <div className="flex min-h-[280px] items-center justify-center rounded-[14px] bg-white md:min-h-[620px]">
                     <img
                       src={`${import.meta.env.BASE_URL}${screenshot.src}`}
                       alt={screenshot.alt}
@@ -62,8 +62,8 @@ const ScreenshotsSection = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="left-0 h-10 w-10 border-border/70 bg-background/95 shadow-sm" />
-          <CarouselNext className="right-0 h-10 w-10 border-border/70 bg-background/95 shadow-sm" />
+          <CarouselPrevious className="left-0 h-10 w-10 border-[#ece9f5] bg-white/95 text-[#6d6196] shadow-sm" />
+          <CarouselNext className="right-0 h-10 w-10 border-[#ece9f5] bg-white/95 text-[#6d6196] shadow-sm" />
         </Carousel>
       </div>
     </section>

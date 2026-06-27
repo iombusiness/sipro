@@ -1,15 +1,18 @@
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 px-6 bg-background">
-      <div className="max-w-3xl mx-auto rounded-3xl border bg-background p-8 text-center shadow-sm md:p-10">
+    <section id="contact" className="px-4 py-10 sm:px-6">
+      <div
+        className="mx-auto max-w-[980px] rounded-3xl px-7 py-10 text-center shadow-[0_18px_44px_rgba(77,68,112,0.26)] md:px-8"
+        style={{ background: "var(--hero-gradient)" }}
+      >
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-2">Contact Support</h2>
-          <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
-          <p className="text-muted-foreground mt-4">
+          <h2 className="mb-2 text-[28px] font-bold text-white">Contact Support</h2>
+          <div className="mx-auto h-1 w-16 rounded-full bg-[#d7cde0]" />
+          <p className="mt-4 leading-7 text-[#f0ecf7]">
             Have questions? Contact us at{" "}
             <a
               href="mailto:admin@iombusiness.com.au"
-              className="font-medium text-primary hover:underline"
+              className="font-semibold text-white underline"
             >
               admin@iombusiness.com.au
             </a>
