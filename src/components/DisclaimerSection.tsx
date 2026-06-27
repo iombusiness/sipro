@@ -3,7 +3,7 @@ const DisclaimerSection = () => {
     <section id="disclaimer" className="px-4 py-10 sm:px-6">
       <div className="mx-auto max-w-[980px] rounded-3xl border border-[#ece9f5] bg-white px-7 py-9 shadow-[0_10px_30px_rgba(55,52,77,0.05)] md:px-8">
         <div className="text-center">
-          <h2 className="mb-2 text-[28px] font-bold text-[#2d2a42]">Disclaimer</h2>
+          <h2 className="mb-2 text-[28px] font-bold text-[#2d2a42]">License &amp; Disclaimer</h2>
           <div className="mx-auto h-1 w-16 rounded-full bg-[#6d6196]" />
         </div>
 
@@ -21,6 +21,12 @@ const DisclaimerSection = () => {
             responsible for reviewing recommendations before applying operational changes. The
             module is provided on an &quot;as is&quot; basis, without warranties of merchantability,
             fitness for a particular purpose, or guaranteed business outcomes.
+          </p>
+          <p>
+            Scope: SiPRO plans single-variant storable products, one warehouse per company &mdash; the
+            SiPRO Planning Warehouse selected in Settings (or the company&apos;s only warehouse). Proposal
+            and strategic-stock state is held per product, and classification settings apply across the
+            database.
           </p>
         </div>
       </div>

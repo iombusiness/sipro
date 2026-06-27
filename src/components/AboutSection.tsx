@@ -5,11 +5,11 @@ const features = [
   <>Designed for Trading businesses, including importers, wholesalers, distributors, and retailers of finished goods, components, parts, and accessories.</>,
   <>Aligns <span className="italic">inventory investment</span> with demand patterns and broader business objectives.</>,
   <>Eliminates manual decision-making by automating product stocking strategies based on market demand and predefined parameters.</>,
-  <>Fully data-driven, enabling automated calculation of optimal stock levels across the entire product portfolio, including Safety Stock, Minimum and Maximum levels, and Reorder Quantities&mdash;based on iRM defaults or user-defined DIFOT targets.</>,
+  <>Fully data-driven, enabling automated calculation of optimal stock levels across the entire product portfolio, including Safety Stock, Minimum and Maximum levels, and Reorder Quantities&mdash;based on SiPRO defaults or user-defined DIFOT targets.</>,
   <>Enables automated management of strategic stock holdings for key customers, seasonal demand, critical production materials, and repair and service parts.</>,
   <>Supports end-to-end Product Lifecycle Management, including new product launches, end-of-life processes, and strategic product withdrawals.</>,
   <>Enables businesses to achieve targeted DIFOT service levels by ensuring optimal product availability, while identifying and isolating excess, slow-moving, and obsolete stock&mdash;typically reducing such inventory by double-digit percentages of total inventory value.</>,
-  <>Provides a detailed, downloadable Inventory Risk Assessment report with up to 12 months of sales data, delivering clear visibility of total, active, and non-moving inventory&mdash;supporting informed financial decisions and <span className="font-bold italic">improving cash flow, profitability, and operational efficiency.</span></>,
+  <>Provides clear on-screen visibility of total, active, and non-moving inventory with up to 12 months of sales data, exportable to spreadsheet&mdash;supporting informed financial decisions and <span className="font-bold italic">improving cash flow, profitability, and operational efficiency.</span></>,
 ];
 
 const AboutSection = () => {
@@ -76,7 +76,7 @@ const AboutSection = () => {
               rel="noopener noreferrer"
               className="mt-3 inline-flex items-center gap-1 border-b-2 border-[#d7cde0] pb-0.5 text-sm font-semibold text-[#6d6196]"
             >
-              Visit IOM Business <ExternalLink className="h-3 w-3" />
+              Visit IOM Business (https://iombusiness.com.au/about/) <ExternalLink className="h-3 w-3" />
             </a>
           </div>
 
@@ -92,7 +92,7 @@ const AboutSection = () => {
               rel="noopener noreferrer"
               className="mt-3 inline-flex items-center gap-1 border-b-2 border-[#d7cde0] pb-0.5 text-sm font-semibold text-[#6d6196]"
             >
-              LinkedIn Profile <ExternalLink className="h-3 w-3" />
+              LinkedIn Profile: https://www.linkedin.com/in/jude-matchado-605017208/ <ExternalLink className="h-3 w-3" />
             </a>
           </div>
         </div>
